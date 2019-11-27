@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "esnext",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+        "@services": ["src/services"],
+        "@server": ["src/server"]
+      }
+    }
+}
