@@ -1,0 +1,1 @@
+export const temp = (): {message: string} => {return {message: 'Hello World!'}}
