@@ -1,1 +1,1 @@
-export const temp = (): {message: string} => {return {message: 'Hello World!'}}
+export const DummyService = (): {message: string} => {return {message: 'Hello World!'}}
