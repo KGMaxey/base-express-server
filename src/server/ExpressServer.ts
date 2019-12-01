@@ -1,6 +1,6 @@
-import express from 'express'
+import * as express from 'express'
 import { DummyRoutes } from './routes'
-import bodyParser from 'body-parser'
+import * as bodyParser from 'body-parser'
 
 export default class ExpressServer {
 
