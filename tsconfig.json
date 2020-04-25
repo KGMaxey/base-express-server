@@ -3,13 +3,14 @@
       "target": "es6",
       "module": "commonjs",
       "moduleResolution": "node",
+      "esModuleInterop": true,
       "noImplicitAny": false,
       "sourceMap": true,
       "outDir": "dist",
       "baseUrl": ".",
+      "rootDir": ".",
       "paths": {
-        "@services": ["src/services"],
-        "@server": ["src/server"]
+        "@server": ["src/server/server"]
       }
     }
 }
