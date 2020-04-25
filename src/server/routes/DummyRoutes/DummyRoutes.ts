@@ -1,11 +1,12 @@
-import * as express from 'express';
-import { DummyService } from '@services'
+import { Router, Request, Response, NextFunction } from 'express';
 
-export const DummyRoutes = (): express.Router => {
-    const router: express.Router = express.Router()
+export const DummyRoutes = (): Router => {
+    const router: Router = Router()
 
-    router.get('/', (req: express.Request, res: express.Response, next: Function) => {
-        res.json(DummyService())
+    router.get('/', (req: Request, res: Response, next: NextFunction) => {
+        res.json({
+            status: "SUCCESS"
+        })
     })
 
     return router;
