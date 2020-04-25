@@ -14,7 +14,7 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "build": "tsc && cp ./tsconfig.json ./dist",
+    "build": "tsc && cp ./tsconfig.json dist",
     "serve": "cd dist/ && node -r tsconfig-paths/register src/app.js",
     "debug": "node --inspect-brk -r ts-node/register -r tsconfig-paths/register src/app.ts"
   },
