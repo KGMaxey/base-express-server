@@ -4,14 +4,14 @@
   "description": "A simple base repo for initializing a typescript based express server including route structures and singleton services",
   "main": "dist/app.js",
   "dependencies": {
-    "@types/express": "^4.17.2",
+    "@types/express": "^4.17.6",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "tsconfig-paths": "^3.9.0"
   },
   "devDependencies": {
-    "ts-node": "^8.5.3",
-    "typescript": "^3.7.2"
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "build": "tsc && cp ./tsconfig.json ./dist",
